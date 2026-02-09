@@ -15,6 +15,29 @@ import video3 from "../assets/images/weather.webm";
 
 export const projects = [
   {
+    id: "015",
+    title: "Health App – Patient Management System",
+    tagline: "A full-stack hospital management system for tracking patient records and treatment workflows.",
+    description:
+      "A modern full-stack healthcare web application that allows hospitals or clinics to securely manage patient records, track treatment stages, and update medical information. Built using Next.js, MongoDB, and Tailwind CSS, the project focuses on real-world hospital workflows, usability, and performance.",
+    year: "2026",
+    timeline: "1 day",
+    industry: "Healthcare / Hospital Management",
+    services: ["Next.js", "MongoDB", "Mongoose", "Tailwind CSS", "API Routes", "Full-Stack Development"],
+    about:
+      "This project was built as part of my journey to strengthen my full-stack development skills using Next.js and MongoDB. I wanted to create a real-world hospital management system where staff can efficiently view, update, and track patient information. The application includes dynamic patient profiles, treatment timelines, medication management, and emergency contact handling. Through this project, I improved my understanding of API routes, database integration, and clean UI design with Tailwind CSS.",
+    challenges:
+      "One major challenge was designing a flexible patient data model that could support nested fields such as medications, emergency contacts, and discharge plans. Another challenge was implementing seamless data updates while maintaining UI responsiveness and preventing inconsistent database states.",
+    solutions:
+      "I structured the MongoDB schema with nested objects and arrays to support real-world medical data. I implemented API routes for secure CRUD operations and used client-side data sanitization before updates to prevent invalid fields from being sent. Tailwind CSS and reusable UI components helped maintain a clean, responsive interface across devices.",
+    image: image11, 
+    logo: "https://media.istockphoto.com/id/2173059563/vector/coming-soon-image-on-white-background-no-photo-available.jpg?s=612x612&w=0&k=20&c=v0a_B58wPFNDPULSiw_BmPyhSNCyrP_d17i2BPPyDTk=",
+    type: "image",
+    gitLink: "https://github.com/GourinandhanaES/health-app",
+    previewLink: "https://health-app-mu-six.vercel.app/patients", 
+    linkedinLink: "",
+  },
+  {
     id: "014",
     title: "Event Scheduler Web Application",
     tagline: "A full-stack event management system with admin control and user-friendly scheduling.",
