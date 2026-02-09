@@ -16,7 +16,7 @@ import video3 from "../assets/images/weather.webm";
 export const projects = [
   {
     id: "015",
-    title: "Health App – Patient Management System",
+    title: "Health App",
     tagline: "A full-stack hospital management system for tracking patient records and treatment workflows.",
     description:
       "A modern full-stack healthcare web application that allows hospitals or clinics to securely manage patient records, track treatment stages, and update medical information. Built using Next.js, MongoDB, and Tailwind CSS, the project focuses on real-world hospital workflows, usability, and performance.",
@@ -34,7 +34,7 @@ export const projects = [
     logo: "https://media.istockphoto.com/id/2173059563/vector/coming-soon-image-on-white-background-no-photo-available.jpg?s=612x612&w=0&k=20&c=v0a_B58wPFNDPULSiw_BmPyhSNCyrP_d17i2BPPyDTk=",
     type: "image",
     gitLink: "https://github.com/GourinandhanaES/health-app",
-    previewLink: "https://health-app-mu-six.vercel.app/patients", 
+    previewLink: "https://health-app-mu-six.vercel.app/", 
     linkedinLink: "",
   },
   {
