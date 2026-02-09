@@ -26,7 +26,7 @@ export const projects = [
     industry: "Healthcare / Hospital Management",
     services: ["Next.js", "MongoDB", "Mongoose", "Tailwind CSS", "API Routes", "Full-Stack Development"],
     about:
-      "This project was built as part of my journey to strengthen my full-stack development skills using Next.js and MongoDB. I wanted to create a real-world hospital management system where staff can efficiently view, update, and track patient information. The application includes dynamic patient profiles, treatment timelines, medication management, and emergency contact handling. Through this project, I improved my understanding of API routes, database integration, and clean UI design with Tailwind CSS.",
+      "This project was built as part of my journey to strengthen my full-stack development skills using Next.js and MongoDB. I wanted to create a real-world hospital management system where staff can efficiently view, update, and track patient information. The application includes dynamic patient profiles, treatment timelines, medication management, and emergency contact handling. Through this project, I improved my understanding of API routes, database integration, and clean UI design with Tailwind CSS. For testing the admin dashboard, use admin as username and admin@123 as password.",
     challenges:
       "One major challenge was designing a flexible patient data model that could support nested fields such as medications, emergency contacts, and discharge plans. Another challenge was implementing seamless data updates while maintaining UI responsiveness and preventing inconsistent database states.",
     solutions:
