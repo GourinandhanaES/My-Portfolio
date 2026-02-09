@@ -8,6 +8,7 @@ import image8 from "../assets/images/movieApp.png";
 import image9 from "../assets/images/tolirwa.png"; 
 import image10 from "../assets/images/project-man.png";
 import image11 from "../assets/images/event.png"; 
+import image12 from "../assets/images/health-app.png"; 
 import video1 from "../assets/images/ikea.webm";
 import video2 from "../assets/images/design.webm";
 import video3 from "../assets/images/weather.webm";
@@ -30,7 +31,7 @@ export const projects = [
       "One major challenge was designing a flexible patient data model that could support nested fields such as medications, emergency contacts, and discharge plans. Another challenge was implementing seamless data updates while maintaining UI responsiveness and preventing inconsistent database states.",
     solutions:
       "I structured the MongoDB schema with nested objects and arrays to support real-world medical data. I implemented API routes for secure CRUD operations and used client-side data sanitization before updates to prevent invalid fields from being sent. Tailwind CSS and reusable UI components helped maintain a clean, responsive interface across devices.",
-    image: image11, 
+    image: image12, 
     logo: "https://media.istockphoto.com/id/2173059563/vector/coming-soon-image-on-white-background-no-photo-available.jpg?s=612x612&w=0&k=20&c=v0a_B58wPFNDPULSiw_BmPyhSNCyrP_d17i2BPPyDTk=",
     type: "image",
     gitLink: "https://github.com/GourinandhanaES/health-app",
