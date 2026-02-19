@@ -4,7 +4,7 @@ import techLogo from "../assets/images/techbyheart.jpg";
 
 export const experienceData = [
   {
-    period: "Jan 2025 - Present",
+    period: "Jan 2025 - Jan 2026",
     role: "Junior Software Developer",
     company: "Sreyas IT Solutions",
     points: [
