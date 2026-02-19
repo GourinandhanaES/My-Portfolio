@@ -9,12 +9,37 @@ import image9 from "../assets/images/tolirwa.png";
 import image10 from "../assets/images/project-man.png";
 import image11 from "../assets/images/event.png"; 
 import image12 from "../assets/images/health-app.png"; 
+import image13 from "../assets/images/ecommerce-app.png"; 
 import video1 from "../assets/images/ikea.webm";
 import video2 from "../assets/images/design.webm";
 import video3 from "../assets/images/weather.webm";
 
 
 export const projects = [
+  {
+    id: "016",
+    title: "E-Commerce App",
+    tagline: "A full-stack e-commerce platform for browsing products, managing cart, and seamless shopping experience.",
+    description:
+      "A modern full-stack e-commerce web application that allows users to explore products, view details, add items to cart, and manage orders. Built using the MERN stack with responsive UI and smooth interactions, the project focuses on real-world shopping workflows, performance, and clean design.",
+    year: "2026",
+    timeline: "1 day",
+    industry: "E-Commerce / Retail",
+    services: ["React.js", "Node.js", "Express.js", "MongoDB", "Mongoose", "Tailwind CSS", "REST API", "Full-Stack Development"],
+    about:
+      "This project was built to strengthen my full-stack development skills using the MERN stack. I designed and developed a real-world e-commerce platform where users can browse products, search items, view product details, and add items to cart. It includes a desktop-only Quick View modal, dynamic cart updates using Context API, backend product APIs, and database integration. Through this project, I improved my understanding of API communication, deployment workflows, state management, and responsive UI architecture.",
+    challenges:
+      "One major challenge was integrating frontend and backend deployments separately while ensuring API requests worked correctly in production. Another challenge was implementing dynamic cart state updates without unnecessary re-renders and maintaining responsiveness across screen sizes.",
+    solutions:
+      "I deployed the backend on Render and frontend on Vercel and configured environment-based API URLs for production. I used React Context API for efficient global state management and optimized component rendering. Tailwind CSS utility classes and responsive breakpoints ensured consistent UI across devices.",
+    image: image13,
+    logo: "https://media.istockphoto.com/id/2173059563/vector/coming-soon-image-on-white-background-no-photo-available.jpg?s=612x612&w=0&k=20&c=v0a_B58wPFNDPULSiw_BmPyhSNCyrP_d17i2BPPyDTk=",
+    type: "image",
+    gitLink: "https://github.com/GourinandhanaES/e-commerce-app",
+    previewLink: "https://e-commerce-app-pi-one.vercel.app/",
+    backendLink: "https://e-commerce-app-5e3u.onrender.com/",
+    linkedinLink: "",
+  },
   {
     id: "015",
     title: "Health App",
